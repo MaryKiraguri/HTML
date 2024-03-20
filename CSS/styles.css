@@ -1,0 +1,45 @@
+body{
+    background-color:dodgerblue;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav{
+    background-color: pink;
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.logo{
+    text-transform: uppercase;
+    color: rgb(76, 18, 130);
+}
+.bg-image{
+    width: 100%; 
+    height: 500px;
+    object-fit: cover;
+}
+.image-portfolio{
+    position: relative;
+    text-align: center;
+    color:rgb(76, 18, 130);
+    height: 500px;
+    
+}
+.name-portfolio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+}
+.image-portfolio .content{
+    background-color: black;
+}
